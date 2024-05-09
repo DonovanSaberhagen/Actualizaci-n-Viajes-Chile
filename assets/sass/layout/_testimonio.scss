@@ -1,0 +1,52 @@
+.testimonio--imagen {
+    border-style: solid;
+    // clip-path: circle(25px);
+    width: 75px;
+    aspect-ratio: 1/1;
+    // background: url(../img/testimonio1.jpg) center cover no-repeat;
+    // background-image: url(../img/testimonio1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 1rem auto 2rem;
+}
+
+.mariela{
+    background-image: url(../img/testimonio1.jpg);
+}
+
+
+.cristian{
+    background-image: url(../img/testimonio2.jpg);
+}
+
+
+.fernanda{
+    background-image: url(../img/testimonio3.jpg);
+}
+
+
+.testimonios-container {      
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+    span{
+        text-align: center;
+
+    }
+  }
+  
+  .testimonio-container >*{
+    display: block;
+
+  }
+  
+  @media (min-width: 576px) {
+    .testimonios-container {     
+         flex-direction: row;
+  }
+  }

@@ -11844,5 +11844,95 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: black;
+  color: white;
+}
+
+hr {
+  opacity: 100%;
+  margin-bottom: 30px;
+}
+
+.separador {
+  border-style: solid;
+  opacity: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#navbarw {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.enlaces {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#carouselExampleIndicators .carousel-item img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  #carouselExampleIndicators .carousel-item img {
+    height: 500px;
+  }
+}
+.testimonio--imagen {
+  border-style: solid;
+  width: 75px;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 1rem auto 2rem;
+}
+
+.mariela {
+  background-image: url(../img/testimonio1.jpg);
+}
+
+.cristian {
+  background-image: url(../img/testimonio2.jpg);
+}
+
+.fernanda {
+  background-image: url(../img/testimonio3.jpg);
+}
+
+.testimonios-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonios-container span {
+  text-align: center;
+}
+
+.testimonio-container > * {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .testimonios-container {
+    flex-direction: row;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
